@@ -49,7 +49,15 @@ else()
 endif(FW_SOURCE)
 
 message(STATUS "----------------------------------------------------------------------------")
+<<<<<<< HEAD
 message(STATUS "T265 Product versions:")
+=======
+<<<<<<< HEAD
+message(STATUS "TM2 Product versions:")
+=======
+message(STATUS "T265 Product versions:")
+>>>>>>> 1. motion gui update threshold changed to be less noisy
+>>>>>>> 1. motion gui update threshold changed to be less noisy
 message(STATUS "- HOST ${HOST_VERSION} (${HOST_VERSION_SOURCE})")
 
 if (FW_SOURCE MATCHES "Remote")
