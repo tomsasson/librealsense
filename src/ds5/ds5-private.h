@@ -462,7 +462,11 @@ namespace librealsense
 
         inline rs2_motion_device_intrinsic create_motion_intrinsics(imu_intrinsic data)
         {
+<<<<<<< HEAD
             rs2_motion_device_intrinsic result{};
+=======
+            rs2_motion_device_intrinsic result;
+>>>>>>> Remove trailing white spaces
 
             for (int i = 0; i < 3; i++)
             {

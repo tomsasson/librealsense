@@ -39,7 +39,16 @@ namespace librealsense
             get_depth_sensor().register_pixel_format(pf_rgb888);
         }
 
+<<<<<<< HEAD
         get_depth_sensor().unregister_option(RS2_OPTION_EMITTER_ON_OFF);
+=======
+<<<<<<< HEAD
+  
+        get_depth_sensor().unregister_option(RS2_OPTION_EMITTER_ON_AND_OFF_ENABLED);
+=======
+        get_depth_sensor().unregister_option(RS2_OPTION_EMITTER_ON_OFF);
+>>>>>>> Remove trailing white spaces
+>>>>>>> Remove trailing white spaces
 
         if ((_fw_version >= firmware_version("5.9.13.6") &&
              _fw_version < firmware_version("5.9.15.1")))

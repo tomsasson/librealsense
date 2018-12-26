@@ -68,7 +68,14 @@ namespace librealsense
                 intrinsics.model = RS2_DISTORTION_BROWN_CONRADY;
                 memset(intrinsics.coeffs, 0, sizeof(intrinsics.coeffs));  // All coefficients are zeroed since rectified depth is defined as CS origin
 
+<<<<<<< HEAD
                 // In case of the special 848x100 resolution adjust the intrinsics
+=======
+<<<<<<< HEAD
+=======
+                // In case of the special 848x100 resolution adjust the intrinsics
+>>>>>>> Remove trailing white spaces
+>>>>>>> Remove trailing white spaces
                 if (width == 848 && height == 100)
                 {
                     intrinsics.height = 100;
